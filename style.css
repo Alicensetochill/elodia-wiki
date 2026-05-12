@@ -61,6 +61,10 @@ body {
     border-top: 1px solid #ddd;
 }
 
+.infobox p {
+    text-align: center;
+}
+
 /* Headings */
 h1 {
     border-bottom: 1px solid #a2a9b1;
