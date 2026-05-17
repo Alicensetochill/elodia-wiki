@@ -8,22 +8,30 @@
 </head>
 <body>
 <div class="container">
+      <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Navigation</h3>
+        <p><a href="index.html">Main Page</a></p>
+        <!-- <p><a href="maps.html">Maps</a></p>
+        <p><a href="setting">Kingdoms</a></p>
+        <p><a href="gods">Gods</a></p>
+        <p><a href="history.html">History</a></p> -->
+    </div>
     <!-- Main Content -->
     <div class="content">
       <h1> Welcome to the Elodia Wiki</h1>
-      <h2>Locations</h2>
-<ul>
-  <li><a href="locations/location1.html">Greenmarch</a></li>
-</ul>
-<ul>
-  <li><a href="locations/location2.html">Location 2</a></li>
-</ul>
+      <img class="zoomable" src="images/Greenmarch Terrain Map.png">
 
+              <!-- Infobox -->
+        <div class="infobox">
+            <img src="images/Elodia South-East Coast.jpg" alt="Map of South East of Elodia" style="width: 100%; height: auto;">
+            <h2> Map of South East Elodia</h2>
+        </div>
+      <h2>Setting</h2>
+      <p>
+        Elodia is an ancient land. The bones of many great civilisation litter the land, forgotten. Dusty tombs and labyrinthine halls twist and turn down into the depths of the earth sheltering terrible monsters and more terrible secrets. New kingdoms and people now build on the ruins of what was, ignorant to the fates of the many empires since past. This new order is a fragile and delicate thing. In lavish courts and in gloomy dark rooms, beasts of ambition seek to harness the ancient powers of kingdoms long past and upend the existing order. Can our brave adventurers survive this tumultuous land?
+      </p>
 
-<h2>Map</h2>
-<ul>
-  <li><a href="locations/map.html">Map</a></li>
-</ul>
     </div>
 
 </div>
@@ -33,4 +41,11 @@
 </div>
 
 </body>
+
+<script type="module">
+  import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom/+esm'
+
+  mediumZoom('.zoomable')
+</script>
+
 </html>

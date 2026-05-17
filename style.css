@@ -12,6 +12,11 @@ body {
     margin: auto;
 }
 
+.container img {
+  width: 90%;
+  height: auto;
+}
+
 /* Sidebar */
 .sidebar {
     width: 200px;
